@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';  // Optional: Include your custom CSS if needed
-import App from './App';  // Import your main App component
+import ReactDOM from 'react-dom/client';  // Import the new root API
+import './index.css';
+import App from './App';
 
-// Render the React app
-ReactDOM.render(
+// Create the root and render the App component
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
