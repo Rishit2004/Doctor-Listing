@@ -16,3 +16,5 @@ const DoctorList = ({ doctors }) => {
 };
 
 export default DoctorList;
+
+/**/
