@@ -79,5 +79,3 @@ const FilterPanel = ({ setConsultationMode, setSpecialties, setSortBy, consultat
 };
 
 export default FilterPanel;
-
-/**/

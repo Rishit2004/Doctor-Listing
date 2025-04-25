@@ -27,5 +27,3 @@ const DoctorCard = ({ doctor }) => {
 };
 
 export default DoctorCard;
-
-/**/
