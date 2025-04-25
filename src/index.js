@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'; // Your custom CSS styles (optional)
-import DoctorList from './DoctorList'; // Import the DoctorList component
+import './index.css';  // Optional: Include your custom CSS if needed
+import App from './App';  // Import your main App component
 
+// Render the React app
 ReactDOM.render(
   <React.StrictMode>
-    <DoctorList />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
