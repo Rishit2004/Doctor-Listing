@@ -1,0 +1,162 @@
+/* General layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* Filter Panel */
+.filter-panel {
+  width: 25%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.filter-panel select,
+.filter-panel input[type="checkbox"] {
+  margin: 10px 0;
+}
+
+/* Doctor Cards */
+.doctor-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.doctor-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+}
+
+.doctor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.doctor-card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.doctor-card p {
+  font-size: 14px;
+  color: #777;
+}
+
+.doctor-card .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.doctor-card .book-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.doctor-card .book-button:hover {
+  background-color: #45a049;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Clear All Button */
+.clear-button {
+  background-color: #ff5733;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: #c84e2d;
+}
+.search-bar {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-bar input:focus {
+  border: 2px solid #4CAF50; /* Highlight input on focus */
+}
+.doctor-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.fees {
+  font-weight: bold;
+  color: green;
+}
+
+.book-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #45a049;
+}
