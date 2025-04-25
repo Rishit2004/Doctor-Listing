@@ -21,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://rishit2004.github.io/Doctor-Listing",
   "eslintConfig": {
     "extends": [
       "react-app",
