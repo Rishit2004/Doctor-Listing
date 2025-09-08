@@ -11,6 +11,7 @@ const FilterPanel = ({ setConsultationMode, setSpecialties, setSortBy, consultat
       checked ? [...prev, value] : prev.filter((item) => item !== value)
     );
   };
+  
 
   const handleSortChange = (e) => {
     setSortBy(e.target.value);
